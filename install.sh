@@ -10,3 +10,5 @@ tar -xvf tomcat.tar.gz
 mv apache-tomcat-9.0.0.M26 tomcat
 cd /usr/lib/jvm/java-1.8.0-openjdk.i386
 pwd 
+cd 
+cp -f .bashrc $HOME/
