@@ -12,3 +12,5 @@ cd /usr/lib/jvm/java-1.8.0-openjdk.i386
 pwd 
 cd 
 cp -f .bashrc $HOME/
+$CATALINA_HOME/bin/startup.sh
+
