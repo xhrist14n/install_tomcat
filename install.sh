@@ -37,8 +37,9 @@ cp -f .bashrc $HOME/
 
 cd /opt/tomcat/bin/
 tar -xvf commons-daemon-native.tar.gz
-cd commons-daemon-1.0.15-native-src
+cd commons-daemon-1.0.15-native-src/unix
 ./configure
 make
+cp jsvc ../..
 
 
